@@ -5,11 +5,9 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import * as serviceWorker from './serviceWorker';
-
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+<React.StrictMode>
+<App />
+	</React.StrictMode>,
+	document.getElementById('root')
+	);
