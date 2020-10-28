@@ -4,7 +4,6 @@ import Form from "./components/form";
 import Weather from "./components/Weather";
 const API_KEY = "0eb3f3776f0d047a1156d75138c0d599";
 class App extends React.Component {
-
 state = {
 temp: undefined,
 city: undefined,
@@ -16,7 +15,6 @@ error: undefined
 gettingWeather = async (e) => {
 e.preventDefault();
 var city = e.target.elements.city.value;
-
 if (city) {
 const api_url = await
 fetch(`api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`);
