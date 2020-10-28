@@ -1,12 +1,12 @@
 import React from "react";
-const Info = () =>(
-<div>
-	<h2>
-	Погодное приложенние
+const Info = () => (
+	<div>
+		<h2>
+			Погодное приложенние
 	</h2>
-	<p>
-		Узнайте погоду в вашем городе!
+		<p>
+			Узнайте погоду в вашем городе!
 	</p>
-</div>
+	</div>
 )
 export default Info;
